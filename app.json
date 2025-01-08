@@ -4,9 +4,9 @@
     "requiredApiVersion": "^1.44.0",
     "iconFile": "icon.png",
     "author": {
-        "name": "John",
-        "homepage": "https://rocketchat.com",
-        "support": "https://support.rocketchat.com"
+        "name": "Hazem Heakal",
+        "homepage": "https://hazemheakal.io",
+        "support": "hazemheakal@outlook.com"
     },
     "name": "Hubspot Integration",
     "nameSlug": "hubspot-integration",
