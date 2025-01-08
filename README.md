@@ -1,6 +1,6 @@
-# Node.js App
+# Rocket.Chat HubSpot Integration App
 
-This is a Node.js-based application with a modular architecture that includes controllers, routes, middleware, services, utilities, and models. The app is deployed directly to a workspace environment without using Docker containers.
+This repository contains a Rocket.Chat App that integrates Rocket.Chat with HubSpot. The app allows you to fetch contacts from HubSpot and streamline communication by sending messages to your HubSpot contacts directly from Rocket.Chat. This integration empowers teams to manage their communication workflows efficiently within Rocket.Chat while leveraging HubSpot's CRM features.
 
 ## Prerequisites
 
