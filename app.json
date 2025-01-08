@@ -1,0 +1,101 @@
+{
+    "id": "afb844a8-9851-4ea3-8557-2b45c12c1744",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.44.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "John",
+        "homepage": "https://rocketchat.com",
+        "support": "https://support.rocketchat.com"
+    },
+    "name": "Hubspot Integration",
+    "nameSlug": "hubspot-integration",
+    "classFile": "HubSpotIntegrationApp.ts",
+    "description": "Integrates Rocket.Chat with HubSpot to fetch contact info and log messages.",
+    "implements": [
+        "IPostLivechatRoomStarted"
+    ],
+    "permissions": [
+        {
+            "name": "user.read"
+        },
+        {
+            "name": "user.write"
+        },
+        {
+            "name": "upload.read"
+        },
+        {
+            "name": "upload.write"
+        },
+        {
+            "name": "ui.interact"
+        },
+        {
+            "name": "server-setting.read"
+        },
+        {
+            "name": "server-setting.write"
+        },
+        {
+            "name": "room.read"
+        },
+        {
+            "name": "room.write"
+        },
+        {
+            "name": "message.read"
+        },
+        {
+            "name": "message.write"
+        },
+        {
+            "name": "livechat-department.read"
+        },
+        {
+            "name": "livechat-department.write"
+        },
+        {
+            "name": "livechat-room.read"
+        },
+        {
+            "name": "livechat-room.write"
+        },
+        {
+            "name": "livechat-message.read"
+        },
+        {
+            "name": "livechat-message.write"
+        },
+        {
+            "name": "livechat-visitor.read"
+        },
+        {
+            "name": "livechat-visitor.write"
+        },
+        {
+            "name": "livechat-status.read"
+        },
+        {
+            "name": "livechat-custom-fields.write"
+        },
+        {
+            "name": "scheduler"
+        },
+        {
+            "name": "networking"
+        },
+        {
+            "name": "persistence"
+        },
+        {
+            "name": "env.read"
+        },
+        {
+            "name": "slashcommand"
+        },
+        {
+            "name": "api"
+        }
+    ]
+}
